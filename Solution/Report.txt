@@ -1,0 +1,14 @@
+This Project is to find the true keys out of the locked C code.
+Algorithm Used : SMT attack
+Tools Used : SMT solver(Z3Py), Python, C code
+Result : The true keys are found out and present in keys.txt file.
+
+Complete algorithm step by step:
+1. We generated a new SMT solver instance.
+2. We created a new variable for each keys, Inputs, and Outputs and intermedite variables.
+3. We added the constraints for each keys, Inputs, and Outputs and intermedite variables.
+4. And run the check() sat function to find the DIP.
+5. If we find the DIP, we will find the correct output using the ./motion.exe (blackbox) and then added more constraints to the SMT solver to remove wrong keys out of space.
+6. We will repeat the step 4 and 5 until we find the true keys.
+
+The SMT solver will find the DIP and the correct output for each keys.

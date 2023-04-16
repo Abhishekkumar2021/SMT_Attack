@@ -1,0 +1,39 @@
+Iteration: 1
+Model is: [k31 = True,
+ k32 = True,
+ out1 = 1,
+ out2 = 0,
+ k12 = 0,
+ k11 = 1,
+ a = 0,
+ b = 0]
+Iteration: 2
+Model is: [k12 = -1,
+ out1 = 0,
+ k32 = False,
+ b = 1,
+ k31 = False,
+ out2 = 1,
+ k11 = -2,
+ a = 2]
+Iteration: 3
+Model is: [k12 = 0,
+ k22 = 7,
+ out1 = 8,
+ k32 = True,
+ b = 2,
+ k31 = False,
+ out2 = 14,
+ k11 = 5,
+ a = 3]
+Iteration: 4
+Model is: [k12 = 5,
+ k22 = 6,
+ k21 = 2,
+ out1 = 10,
+ k32 = False,
+ b = 5,
+ k31 = False,
+ k11 = 5,
+ out2 = 30,
+ a = 5]

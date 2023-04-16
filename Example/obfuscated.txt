@@ -1,0 +1,5 @@
+if((a>b)^k3){
+    out = a + k1;
+}else{
+    out = b * k2;
+}
